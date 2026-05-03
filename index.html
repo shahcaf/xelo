@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Xelo Scripts | Custom Roblox Scripting</title>
+    <meta name="description" content="Order high-quality, custom Roblox scripts from Xelo Scripts. Fast delivery and professional code.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <nav>
+        <div class="container nav-container">
+            <div class="logo">
+                <img src="logo.png" alt="Xelo Scripts Logo" id="nav-logo">
+                <span>XELO SCRIPTS</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#pricing">Pricing</a></li>
+                <li><a href="#order">Order Now</a></li>
+                <li><a href="https://discord.gg/JV3uhYurkY" class="btn btn-secondary-small" target="_blank">Discord</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header id="home" class="hero">
+        <div class="hero-glow"></div>
+        <div class="container hero-content">
+            <h1 class="animate-up">Order <span class="text-gradient">XELO STEALER SCRIPT</span></h1>
+            <p class="animate-up delay-1">The most advanced, optimized, and powerful stealer script for your game. Experience the Xelo difference.</p>
+            <div class="hero-btns animate-up delay-2">
+                <a href="#order" class="btn btn-primary">Start Your Order</a>
+                <a href="https://discord.gg/JV3uhYurkY" target="_blank" class="btn btn-outline"><i class="fab fa-discord"></i> Join Community</a>
+            </div>
+        </div>
+    </header>
+
+    <section id="pricing" class="pricing">
+        <div class="container">
+            <h2 class="section-title">Transparent <span class="text-gradient">Pricing</span></h2>
+            <div class="pricing-grid">
+                <div class="pricing-card animate-up">
+                    <div class="card-tag">Popular</div>
+                    <h3>XELO STEALER SCRIPT</h3>
+                    <div class="price">$20</div>
+                    <p>High-performance advanced stealer logic.</p>
+                    <ul class="features">
+                        <li><i class="fas fa-check"></i> Clean & Optimized Code</li>
+                        <li><i class="fas fa-check"></i> Bug-free Guarantee</li>
+                        <li><i class="fas fa-check"></i> Commented Code</li>
+                    </ul>
+                    <a href="#order" class="btn btn-primary full-width" onclick="setCommissionType('script')">Select Stealer</a>
+                </div>
+                <div class="pricing-card animate-up delay-1">
+                    <h3>Full Game</h3>
+                    <div class="price">$10</div>
+                    <p>Complete game framework or core logic.</p>
+                    <ul class="features">
+                        <li><i class="fas fa-check"></i> Full Game Systems</li>
+                        <li><i class="fas fa-check"></i> DataStore Integration</li>
+                        <li><i class="fas fa-check"></i> UI Scripting Included</li>
+                    </ul>
+                    <a href="#order" class="btn btn-primary full-width" onclick="setCommissionType('game')">Select Game</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="order" class="order-section">
+        <div class="container">
+            <div class="order-container">
+                <div class="order-info">
+                    <h2 class="section-title left">Ready to <span class="text-gradient">Elevate?</span></h2>
+                    <p>Fill out the form to start your commission. Our team will review your request and reach out on Discord.</p>
+                    
+                    <div class="info-box">
+                        <i class="fas fa-info-circle"></i>
+                        <div>
+                            <p><strong>Step 1:</strong> After payment, join the Discord server and open a ticket.</p>
+                            <p><strong>Step 2:</strong> You need to make a ticket and we will provide you a webhook API to set the order details.</p>
+                        </div>
+                    </div>
+
+                    <div class="action-btns">
+                        <a href="https://paypal.me/XELO1" target="_blank" class="btn btn-paypal"><i class="fab fa-paypal"></i> Pay via PayPal</a>
+                        <a href="https://discord.gg/JV3uhYurkY" target="_blank" class="btn btn-discord"><i class="fab fa-discord"></i> Open Ticket</a>
+                    </div>
+                </div>
+
+                <div class="order-form-wrapper animate-right">
+                    <form id="script-order-form">
+
+                        <div class="form-group">
+                            <label for="commission-type">Commission Type</label>
+                            <select id="commission-type" required>
+                                <option value="script">XELO STEALER SCRIPT ($20)</option>
+                                <option value="game">Full Game ($10)</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="discord-username">Discord Username</label>
+                            <input type="text" id="discord-username" placeholder="e.g. xelo_user#1234" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="request-details">Order Details / Notes</label>
+                            <textarea id="request-details" rows="5" placeholder="Any specific notes for your order..." required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary full-width">Submit Commission Request</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container footer-content">
+            <div class="footer-logo">
+                <img src="logo.png" alt="Xelo Scripts">
+                <span>XELO SCRIPTS</span>
+            </div>
+            <p>&copy; 2026 Xelo Scripts. All rights reserved. Not affiliated with Roblox Corporation.</p>
+            <div class="footer-socials">
+                <a href="https://discord.gg/JV3uhYurkY" target="_blank"><i class="fab fa-discord"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="order.js"></script>
+</body>
+</html>
